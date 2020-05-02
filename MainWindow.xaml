@@ -1,0 +1,36 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDpiSwitcher"
+        xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime.Extensions" x:Class="WpfDpiSwitcher.MainWindow"
+        mc:Ignorable="d"
+        Title="DPI Switcher " Height="250" Width="250" WindowStyle="ThreeDBorderWindow" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
+    <Grid>
+        <Button x:Name="StartButton" Content="Start" Margin="160,200,10,10" Click="Button_Click" IsDefault="True"/>
+        <TextBox x:Name="LowIDTextBox" TextWrapping="Wrap" Margin="115,10,10,202" IsEnabled="False"/>
+        <Label Content="High ID" Margin="10,10,140,194"/>
+        <TextBox x:Name="HighIDTextBox" TextWrapping="Wrap" Margin="115,45,10,167" IsEnabled="False"/>
+        <Label Content="Low ID" Margin="10,41,140,163"/>
+        <Label Content="Display #" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="DisplayComboBox" Margin="115,82,10,130" DisplayMemberPath="Name">
+            <ComboBox.ItemsSource>
+                <Collections:ArrayList x:Name="DisplayList"/>
+            </ComboBox.ItemsSource>
+        </ComboBox>
+        <Label Content="Tablet DPI" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top"/>
+        <Label Content="Desktop DPI" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="TabletDPIComboBox" Margin="115,119,10,93" DisplayMemberPath="Name">
+            <ComboBox.ItemsSource>
+                <Collections:ArrayList x:Name="TabletDPIList"/>
+            </ComboBox.ItemsSource>
+        </ComboBox>
+        <ComboBox  DisplayMemberPath="Name" x:Name="DesktopDPIComboBox" HorizontalAlignment="Left" Margin="115,152,0,0" VerticalAlignment="Top" Width="125">
+            <ComboBox.ItemsSource>
+                <Collections:ArrayList x:Name="DesktopDPIList"/>
+            </ComboBox.ItemsSource>
+        </ComboBox>
+
+    </Grid>
+</Window>

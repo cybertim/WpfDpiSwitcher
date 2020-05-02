@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDpiSwitcher", "WpfDpiSwitcher.csproj", "{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Win10_x64|Any CPU = Win10_x64|Any CPU
+		Win10_x64|x64 = Win10_x64|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Debug|x64.Build.0 = Debug|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Release|x64.ActiveCfg = Release|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Release|x64.Build.0 = Release|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Win10_x64|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Win10_x64|Any CPU.Build.0 = Debug|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Win10_x64|x64.ActiveCfg = Debug|Any CPU
+		{AEC4736A-D0D3-4BE5-B980-205F3F236D3D}.Win10_x64|x64.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E585965-AEDB-4BC1-A60D-4CE15A6048E8}
+	EndGlobalSection
+EndGlobal
