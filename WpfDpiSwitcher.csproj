@@ -11,6 +11,7 @@
     <PublishSingleFile>true</PublishSingleFile>
     <PublishTrimmed>true</PublishTrimmed>
     <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <ApplicationIcon>icons8-windows8-tablet-16.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>
